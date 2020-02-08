@@ -1,25 +1,32 @@
 {
-  "name": "fantasybaseballapp",
+  "name": "react-reserve",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project for MERN Stack - The Complete Guide",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thezman88/fantasybaseballapp.git"
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thezman88/fantasybaseballapp/issues"
-  },
-  "homepage": "https://github.com/thezman88/fantasybaseballapp#readme",
   "dependencies": {
-    "next": "^9.2.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "js-cookie": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.7",
+    "next": "^9.0.2",
+    "nookies": "^2.0.8",
+    "nprogress": "^0.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-stripe-checkout": "^2.6.3",
+    "semantic-ui-react": "^0.87.3",
+    "shortid": "^2.2.14",
+    "stripe": "^7.5.0",
+    "uuid": "^3.3.2",
+    "validator": "^11.1.0"
   }
 }
